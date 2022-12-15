@@ -1,0 +1,15 @@
+2022/12/15-20:29:38.365 7e03 Reusing MANIFEST /Users/rodrigogomes/Dropbox/Mac/Documents/Others/bot-whats/tokens/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/15-20:29:38.366 7e03 Recovering log #4
+2022/12/15-20:29:38.371 7e03 Reusing old log /Users/rodrigogomes/Dropbox/Mac/Documents/Others/bot-whats/tokens/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000004.log 
+2022/12/15-20:30:13.255 7e03 Level-0 table #8: started
+2022/12/15-20:30:13.259 7e03 Level-0 table #8: 142023 bytes OK
+2022/12/15-20:30:13.263 7e03 Delete type=0 #4
+2022/12/15-20:30:13.264 7e03 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/12/15-20:30:13.264 7e03 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x07.\x02\x01\x0e\x00W\x00A\x00A\x00D\x00V\x00S\x00e\x00c\x00r\x00e\x00t\x00K\x00e\x00y' @ 4410 : 1
+2022/12/15-20:30:13.264 7e03 Compacting 1@1 + 1@2 files
+2022/12/15-20:30:13.269 7e03 Generated table #9@1: 1850 keys, 60300 bytes
+2022/12/15-20:30:13.269 7e03 Compacted 1@1 + 1@2 files => 60300 bytes
+2022/12/15-20:30:13.272 7e03 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/15-20:30:13.272 7e03 Delete type=2 #5
+2022/12/15-20:30:13.275 7e03 Delete type=2 #8
+2022/12/15-20:30:13.275 7e03 Manual compaction at level-1 from '\x00\x07.\x02\x01\x0e\x00W\x00A\x00A\x00D\x00V\x00S\x00e\x00c\x00r\x00e\x00t\x00K\x00e\x00y' @ 4410 : 1 .. (end); will stop at (end)

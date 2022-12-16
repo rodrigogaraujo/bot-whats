@@ -29,21 +29,7 @@ venom.create(
       //Create session wss return "serverClose" case server for close
       console.log('Session name: ', session);
     },
-{
-  "autoClose":0,
-  "browserArgs":[
-     "--no-sandbox"
-  ],
-  "headless": true,
-  "devtools": false,
-  "useChrome": false,
-  "debug": false,
-  "logQR": false,
-  "disableSpins": true,
-  "disableWelcome": true,
-  chromiumVersion: '818858',
-  noOpenBrowser: true
-}).then((client) => {
+).then((client) => {
   try {
     start(client);
   } catch (er) {

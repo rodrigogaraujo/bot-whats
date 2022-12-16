@@ -9,13 +9,13 @@ const app = express();
 
 app.use("/chats", chatRoute);
 
-app.listen(3333, () => {
+app.listen(4444, () => {
   console.log("servidor iniciado");
 });
 
 venom.create(
     //session
-  'sessionName', //Pass the name of the client you want to start the bot
+  `session${format(new Date(), 'dd-MM-yyyy HH:mm')}`, //Pass the name of the client you want to start the bot
     //catchQR
     (base64Qrimg, asciiQR, attempts, urlCode) => {
       console.log('Number of attempts to read the qrcode: ', attempts);
@@ -171,7 +171,7 @@ A pomada canela de velho serve para:
             || message.body.toLowerCase().includes("composicão")
             || message.body.toLowerCase().includes("composiçao")) {
             // Send audio file MP3
-            await client.sendVoice(message.from, './images/audio3.mp3').then((result) => {
+            await client.sendVoice(message.from, './images/audio4.mp3').then((result) => {
               console.log('Result: ', result); //return object success
             })
             await client.sendText(

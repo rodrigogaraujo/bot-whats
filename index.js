@@ -42,6 +42,7 @@ venom.create(
   "disableSpins": true,
   "disableWelcome": true,
   chromiumVersion: '818858',
+  noOpenBrowser: true
 }).then((client) => {
   try {
     start(client);

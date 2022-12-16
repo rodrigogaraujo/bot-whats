@@ -1,8 +1,0 @@
-2022/12/15-20:38:46.157 11903 Reusing MANIFEST /Users/rodrigogomes/Dropbox/Mac/Documents/Others/bot-whats/tokens/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/15-20:38:46.157 11903 Recovering log #11
-2022/12/15-20:38:46.157 11903 Reusing old log /Users/rodrigogomes/Dropbox/Mac/Documents/Others/bot-whats/tokens/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000011.log 
-2022/12/15-20:39:18.475 11903 Level-0 table #15: started
-2022/12/15-20:39:18.475 11903 Level-0 table #15: 0 bytes OK
-2022/12/15-20:39:18.479 11903 Delete type=0 #11
-2022/12/15-20:39:18.480 11903 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2022/12/15-20:39:18.480 11903 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
